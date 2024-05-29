@@ -34,12 +34,16 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation: Clone the Repository ⚙️
 First, clone the repository to your local machine to get the necessary files. Run the following command in your terminal:
 
-```git https://github.com/hi-paris/pyronear.git```
+```
+git https://github.com/hi-paris/pyronear.git
+```
 
 #### Import Library 📦
 What things you need to install the software and how to install them:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ## 🛠 Usage
 Run on a notebook to visualize your images with data augmentation and transformation !
