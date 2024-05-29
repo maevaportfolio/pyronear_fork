@@ -16,6 +16,8 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
+![image](https://github.com/hi-paris/pyronear/assets/108234726/cb928a41-6af0-4714-b85a-1a4d5b096c64)
+
 ## 🌐 About the Project
 
 This project incorporates a variety of advanced image processing techniques, specifically designed to enhance the capabilities of the Pyronear project for forest fire detection. Here’s an overview of what each part of the project involves:
