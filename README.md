@@ -1,11 +1,16 @@
 ## 📝 Table of Contents
 - [About the Project](#about-the-project)
-- [Getting Started](#getting-started)
+  
+- [Image Preprocessing](#image-preprocessing)
+  - [Getting Started](#getting-started)
   - [Import Library](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Upcoming Features](#upcoming-features)
+  - [Installation : Clone the Repository ⚙️](#installation)
+- [Super Resolution](#super-resolution)
+  - [From Scratch](#From-scratch)
+  - [Pretrained](#pretrained)
+- [Hyper parameters tunnning](#hyper-parameters-tunning)
+  - [Grid Search For Yolo model](Grid-search)
+    
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -31,32 +36,32 @@ This file contains code for data transformation and augmentation, including rota
 
 This section explains how to use the image preprocessing pipeline. Ensure you have followed the installation instructions provided in the [Getting Started](#Getting-Started) section before proceeding.
 
-### Running the Image Preprocessing Pipeline
+#### Running the Image Preprocessing Pipeline
 
 The image preprocessing pipeline is designed to transform and augment images using specific operations such as rotations. This functionality is encapsulated in the `process_image` function, which is part of the `processing` module.
 
-### Setting Up and Running the Pipeline
+#### Setting Up and Running the Pipeline
 
 Follow these steps to get the image preprocessing pipeline up and running:
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Installation: Clone the Repository ⚙️
+#### Installation: Clone the Repository ⚙️
 First, clone the repository to your local machine to get the necessary files. Run the following command in your terminal:
 
 ```
 git https://github.com/hi-paris/pyronear.git
 ```
 
-#### Import Library 📦
+##### Import Library 📦
 What things you need to install the software and how to install them:
 
 ```
 pip install -r requirements.txt
 ```
 
-## 🛠 Usage
+### 🛠 Usage
 Run the following notebook to visualize your images with data augmentation and transformation!
 
 ```
@@ -83,3 +88,12 @@ Utilizes a pre-trained ESRGAN model and a from-scratch ESRGAN model for enhancin
 
 ### Pre-trained (Tensorflow)
 
+---
+## Licence 📜
+
+MIT License
+
+---
+## References
+
+---
