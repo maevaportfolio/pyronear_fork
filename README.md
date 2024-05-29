@@ -29,12 +29,12 @@ Follow these steps to get the image preprocessing pipeline up and running:
 #### 1. Clone the Repository
 First, clone the repository to your local machine to get the necessary files. Run the following command in your terminal:
 
-```bash
+
 git https://github.com/hi-paris/pyronear.git
 
 
 ```markdown
-#### 2. Import Library
+#### Import Library
 
 - **Super-resolution Model**: Utilizes a pre-trained ESRGAN model and a from-scratch ESRGAN model for enhancing image resolution.
 
