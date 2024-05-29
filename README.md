@@ -12,11 +12,24 @@
 - [Acknowledgements](#acknowledgements)
 
 ## 🌐 About the Project
-The project includes advanced image processing techniques with a focus on machine learning models for image enhancement. Here’s what each part of the project involves:
 
-- **Image Preprocessing**: This file contains code for data transformation and augmentation, including rotations and transformations on images and labels.
+This project incorporates a variety of advanced image processing techniques, specifically designed to enhance the capabilities of the Pyronear project for forest fire detection. Utilizing machine learning models, the project focuses on several key areas of image processing to improve detection accuracy and performance. Here’s an overview of what each part of the project involves:
 
-This section explains how to use the image preprocessing functionality in the project. Ensure you have followed the installation instructions provided in the [Getting Started](#getting-started) section before proceeding.
+- **Image Preprocessing**: Essential for preparing raw image data for further processing and analysis. This includes standardizing image sizes, formats, and ranges.
+
+- **Transformation and Augmentation**: These techniques artificially expand the dataset with modified versions of existing images through operations such as rotations, scaling, and flipping. This is crucial for training robust machine learning models.
+
+- **Super-resolution**: Enhances the resolution of input images, which can be particularly beneficial for improving the quality of images captured from low-resolution devices in forested areas.
+
+- **Hyperparameter Tuning**: Optimizes the performance of machine learning models by systematically searching for the most effective combination of parameters. This process ensures that the models perform optimally under various conditions.
+
+These components are integrated into the Pyronear project to enhance its effectiveness in detecting forest smoke, ultimately aiming to provide faster and more reliable fire detection solutions.
+
+---
+
+- **1️⃣ Image Preprocessing**: This file contains code for data transformation and augmentation, including rotations and transformations on images and labels.
+
+This section explains how to use the image preprocessing pipeline. Ensure you have followed the installation instructions provided in the [Getting Started](#getting-started) section before proceeding.
 
 ### Running the Image Preprocessing Pipeline
 
@@ -25,8 +38,6 @@ The image preprocessing pipeline is designed to transform and augment images usi
 ### Setting Up and Running the Pipeline
 
 Follow these steps to get the image preprocessing pipeline up and running:
-
-- **Super-resolution Model**: Utilizes a pre-trained ESRGAN model and a from-scratch ESRGAN model for enhancing image resolution.
 
 ## 🚀 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -62,5 +73,7 @@ class_names = ["smoke"]
 # Process the image and possibly display it, depending on your function's implementation
 process_image(image_path, label_path, class_names)
 ```
+---
 
+- **2️⃣ Super-resolution Model**: Utilizes a pre-trained ESRGAN model and a from-scratch ESRGAN model for enhancing image resolution.
 
