@@ -32,6 +32,8 @@ First, clone the repository to your local machine to get the necessary files. Ru
 ```bash
 git https://github.com/hi-paris/pyronear.git
 
+#### 2. Import Library
+
 - **Super-resolution Model**: Utilizes a pre-trained ESRGAN model and a from-scratch ESRGAN model for enhancing image resolution.
 
 ## 🚀 Getting Started
