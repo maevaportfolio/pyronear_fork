@@ -13,15 +13,14 @@
 
 ## 🌐 About the Project
 
-This project incorporates a variety of advanced image processing techniques, specifically designed to enhance the capabilities of the Pyronear project for forest fire detection. Utilizing machine learning models, the project focuses on several key areas of image processing to improve detection accuracy and performance. Here’s an overview of what each part of the project involves:
+This project incorporates a variety of advanced image processing techniques, specifically designed to enhance the capabilities of the Pyronear project for forest fire detection. Here’s an overview of what each part of the project involves:
 
-- **Image Preprocessing**: Essential for preparing raw image data for further processing and analysis. This includes standardizing image sizes, formats, and ranges.
+- **Image Preprocessing : Transformation and Augmentation**: These techniques artificially expand the dataset with modified versions of existing images through operations such as rotations, scaling, and flipping. This is crucial for training robust machine learning models. The pipeline can make rotation on the images but also the labels.
 
-- **Transformation and Augmentation**: These techniques artificially expand the dataset with modified versions of existing images through operations such as rotations, scaling, and flipping. This is crucial for training robust machine learning models.
-
-- **Super-resolution**: Enhances the resolution of input images, which can be particularly beneficial for improving the quality of images captured from low-resolution devices in forested areas.
+- **Super-resolution**:Enhances the resolution of input images, which is particularly beneficial for improving the quality of images in the Roboflow dataset that includes video game captures from low-resolution devices in forested areas. This improvement helps make our models more robust, enhancing their ability to detect smoke and other indicators of forest fires effectively
 
 - **Hyperparameter Tuning**: Optimizes the performance of machine learning models by systematically searching for the most effective combination of parameters. This process ensures that the models perform optimally under various conditions.
+Here, we are going to use Random search.
 
 These components are integrated into the Pyronear project to enhance its effectiveness in detecting forest smoke, ultimately aiming to provide faster and more reliable fire detection solutions.
 
@@ -30,7 +29,7 @@ These components are integrated into the Pyronear project to enhance its effecti
 ## **1️⃣ Image Preprocessing**:
 This file contains code for data transformation and augmentation, including rotations and transformations on images and labels.
 
-This section explains how to use the image preprocessing pipeline. Ensure you have followed the installation instructions provided in the [Getting Started](#getting-started) section before proceeding.
+This section explains how to use the image preprocessing pipeline. Ensure you have followed the installation instructions provided in the [Getting Started](#Getting-Started) section before proceeding.
 
 ### Running the Image Preprocessing Pipeline
 
