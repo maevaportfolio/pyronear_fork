@@ -1,7 +1,7 @@
 ## 📝 Table of Contents
 - [About the Project](#about-the-project)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
+  - [Import Library](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -26,20 +26,37 @@ The image preprocessing pipeline is designed to transform and augment images usi
 
 Follow these steps to get the image preprocessing pipeline up and running:
 
-#### 1. Clone the Repository
-First, clone the repository to your local machine to get the necessary files. Run the following command in your terminal:
-
-
-```git https://github.com/hi-paris/pyronear.git```
-
-#### Import Library
-
 - **Super-resolution Model**: Utilizes a pre-trained ESRGAN model and a from-scratch ESRGAN model for enhancing image resolution.
 
 ## 🚀 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Installation: Clone the Repository ⚙️
+First, clone the repository to your local machine to get the necessary files. Run the following command in your terminal:
+
+```git https://github.com/hi-paris/pyronear.git```
+
+#### Import Library 📦
 What things you need to install the software and how to install them:
-```bash
-pip install -r requirements.txt
+
+```pip install -r requirements.txt```
+
+## 🛠 Usage
+Run on a notebook to visualize your images with data augmentation and transformation !
+
+```
+# Import the process_image function from the processing module
+from processing import process_image
+
+# Define the paths for your image and label
+image_path = "images/aiformankind_v1_000007.jpg"
+label_path = "images/aiformankind_v1_000007.txt"
+
+# Define the class names associated with your labels
+class_names = ["smoke"]
+
+# Process the image and possibly display it, depending on your function's implementation
+process_image(image_path, label_path, class_names)
+```
+
+
