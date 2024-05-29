@@ -27,7 +27,7 @@ These components are integrated into the Pyronear project to enhance its effecti
 
 ---
 
-# **1️⃣ Image Preprocessing**:
+## **1️⃣ Image Preprocessing**:
 This file contains code for data transformation and augmentation, including rotations and transformations on images and labels.
 
 This section explains how to use the image preprocessing pipeline. Ensure you have followed the installation instructions provided in the [Getting Started](#getting-started) section before proceeding.
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 ```
 
 ## 🛠 Usage
-Run on a notebook to visualize your images with data augmentation and transformation !
+Run the following notebook to visualize your images with data augmentation and transformation!
 
 ```
 # Import the process_image function from the processing module
@@ -76,6 +76,11 @@ process_image(image_path, label_path, class_names)
 ```
 ---
 
-# **2️⃣ Super-resolution Model**: 
+## **2️⃣ Super-resolution Model**: ESRGAN
 Utilizes a pre-trained ESRGAN model and a from-scratch ESRGAN model for enhancing image resolution.
+
+### From Scratch 
+
+
+### Pre-trained (Tensorflow)
 
