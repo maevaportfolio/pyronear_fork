@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/330164364603833865/955898926fcc47efa559f321a1173761/artifacts
+end_time: 1718281536340
+entry_point_name: ''
+experiment_id: '330164364603833865'
+lifecycle_stage: active
+run_id: 955898926fcc47efa559f321a1173761
+run_name: invincible-bee-571
+run_uuid: 955898926fcc47efa559f321a1173761
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718281533266
+status: 3
+tags: []
+user_id: maeva

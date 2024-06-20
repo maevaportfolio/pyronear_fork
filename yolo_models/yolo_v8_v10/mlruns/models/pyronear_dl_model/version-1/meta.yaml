@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1718281536557
+current_stage: None
+description: ''
+last_updated_timestamp: 1718281536557
+name: pyronear_dl_model
+run_id: 80474ce1ca1b48efb39100c5c1e30c20
+run_link: ''
+source: mlflow-artifacts:/271758190171114395/80474ce1ca1b48efb39100c5c1e30c20/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/271758190171114395/80474ce1ca1b48efb39100c5c1e30c20/artifacts/model
+user_id: null
+version: 1

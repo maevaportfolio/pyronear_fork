@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/271758190171114395/80474ce1ca1b48efb39100c5c1e30c20/artifacts
+end_time: 1718281523842
+entry_point_name: ''
+experiment_id: '271758190171114395'
+lifecycle_stage: active
+run_id: 80474ce1ca1b48efb39100c5c1e30c20
+run_name: pyronear_yolo
+run_uuid: 80474ce1ca1b48efb39100c5c1e30c20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718281373732
+status: 3
+tags: []
+user_id: maeva

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/330164364603833865/47af294193fe4e65a8990a44512cc6cc/artifacts
+end_time: 1718888965242
+entry_point_name: ''
+experiment_id: '330164364603833865'
+lifecycle_stage: active
+run_id: 47af294193fe4e65a8990a44512cc6cc
+run_name: suave-pig-621
+run_uuid: 47af294193fe4e65a8990a44512cc6cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718888959928
+status: 3
+tags: []
+user_id: maeva
